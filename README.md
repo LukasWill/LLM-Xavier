@@ -1,2 +1,3 @@
 # LLM-Xavier
-A developed code base used for leveraging LLMs to discern the agent's behaviours.
+The official implementation of the paper: Mental Modelling of Reinforcement Learning Agents by Language Models
+(Details Come Soon!)
