@@ -1,0 +1,40 @@
+# Python
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated evaluation and paper artifacts
+/outputs/
+/offline_results/
+/offline_results_paper/
+/RQ1/
+/RQ2/
+/RQ3/
+/cal_*.py
+responses.jsonl
+
+# Dataset and training artifacts are distributed separately
+*.npz
+*.cleanrl_model
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
+/offline_data/test_offline_runs/
+/offline_data/text_game_data/
+
+# Platform files
+.DS_Store
+**/.DS_Store

@@ -1,0 +1,15 @@
+data_path: /path/to/episode.npz
+task_name: MountainCar-v0
+metric: next-action
+question_name: next_action_prediction
+history_size: 3
+backend: openai
+model: YOUR_MODEL_NAME
+output_dir: outputs/mountain-car-example
+seed: 0
+indexed_history: true
+include_prompts: true
+state_threshold: 0.0001
+fetch_drop_last_feature: true
+timeout: 60
+retries: 2

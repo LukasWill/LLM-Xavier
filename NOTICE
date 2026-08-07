@@ -1,0 +1,9 @@
+LLM-X
+Copyright 2024-2026 The LLM-X Authors
+
+Task and environment descriptions refer to environments from Gym and Gymnasium.
+No Gymnasium implementation code or trained third-party model is bundled in this
+source distribution. See DATASET.md for separately distributed research artifacts.
+
+This software accompanies "Mental Modelling of Reinforcement Learning Agents by
+Language Models," Transactions on Machine Learning Research, 2024.
